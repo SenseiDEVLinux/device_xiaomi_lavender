@@ -443,6 +443,10 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 PRODUCT_PACKAGES += \
     libcamera_sdm660_shim
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
